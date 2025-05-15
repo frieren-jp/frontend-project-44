@@ -4,7 +4,7 @@
   "description": "[![Actions Status](https://github.com/frieren-jp/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/frieren-jp/frontend-project-44/actions)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "npx eslint ."
   },
   "type": "module",
   "bin": {
@@ -22,5 +22,13 @@
   "homepage": "https://github.com/frieren-jp/frontend-project-44#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.31.0",
+    "globals": "^16.1.0",
+    "sonar-scanner": "^3.1.0"
   }
 }
