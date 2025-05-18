@@ -11,7 +11,7 @@ const runEvenGames = () => {
   const roundCount = 3;
 
   for (let i = 0; i < roundCount; i += 1) {
-    const number = Math.floor(Math.random() * 100);
+    const number = Math.floor(Math.random() * 100); // nosonar - not used for security purposes
     const correctAnswer = isEven(number) ? 'yes' : 'no';
 
     console.log(`Question: ${number}`);
