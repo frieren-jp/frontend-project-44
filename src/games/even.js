@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync'
 
-const isEven = (number) => number % 2 === 0
+const isEven = number => number % 2 === 0
 
 const runEvenGames = () => {
   console.log('Welcome to the Brain Games!')
@@ -25,7 +25,8 @@ const runEvenGames = () => {
 
     if (userAnswer === correctAnswer) {
       console.log('Correct!')
-    } else {
+    } 
+    else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`)
       console.log(`Let's try again, ${name}!`)
       return
