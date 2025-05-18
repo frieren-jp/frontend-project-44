@@ -8,7 +8,7 @@ const generateRound = () => {
   const step = getRandomNumber(2, 10)
   const length = 10
 
-  const progression = [];
+  const progression = []
   for (let i = 0; i < length; i += 1) {
     progression.push(start + i * step)
   }

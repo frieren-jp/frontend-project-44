@@ -16,7 +16,7 @@ const generateRound = () => {
   const num1 = getRandomNumber(1, 30)
   const num2 = getRandomNumber(1, 10)
   // eslint-disable-next-line max-len
-  const operator = operators[Math.floor(Math.random() * operators.length)]; // nosonar - not used for security purposes
+  const operator = operators[Math.floor(Math.random() * operators.length)] // nosonar - not used for security purposes
   const question = `${num1} ${operator} ${num2}`
   const answer = String(calculate(num1, num2, operator))
   return [question, answer]
