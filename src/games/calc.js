@@ -23,5 +23,5 @@ const generateRound = () => {
 
 export default () => {
   const description = 'What is the result of the expression?';
-  runGameEngine(generateRound, description);
+  runGameEngine(description, generateRound);
 };
