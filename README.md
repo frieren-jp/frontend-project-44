@@ -13,9 +13,6 @@
 ```bash
 npm ci
  ```
-```bash
-npm install
- ```
  ```bash
 chmod +x bin/*.js
  ```
